@@ -112,7 +112,7 @@
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0.0625 1.5 180)
+			(at -0.1375 -1.9 180)
 			(layer "F.SilkS")
 			(uuid "6b3469f2-1c38-49c6-9e59-bf6f17a73262")
 			(effects
@@ -344,7 +344,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at -1.475 -2 0)
+			(at 0.0875 1.9 0)
 			(layer "F.SilkS")
 			(uuid "de8afa50-103d-4dfe-b82c-ef8b4038610d")
 			(effects
@@ -554,8 +554,9 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at 0 -2.33 0)
+			(at 2.3 -1.3 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0a88ab67-6664-4a10-9c5e-c3e21b75a14d")
 			(effects
 				(font
@@ -1030,6 +1031,7 @@
 		(property "Reference" "J1"
 			(at 0 -2.33 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "023feb6c-e9fc-489e-a4bd-74d24c6ec919")
 			(effects
 				(font
@@ -1358,7 +1360,7 @@
 		(descr "SOIC, 20 Pin (JEDEC MS-013AC, https://www.analog.com/media/en/package-pcb-resources/package/233848rw_20.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U1"
-			(at 0.15 7.175 0)
+			(at -0.05 7.685 0)
 			(layer "F.SilkS")
 			(uuid "ddeb9d35-a4e5-43a3-ae22-ed0e19be35a6")
 			(effects
@@ -2457,6 +2459,32 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "8415f9ab-68df-442c-a1d5-b6a04fe78a7b")
+	)
+	(gr_text "-\n"
+		(at 139.9 86.6 90)
+		(layer "F.SilkS")
+		(uuid "2f05491c-00af-4405-80d9-8b81e1f58b55")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 138.1 91.7 0)
+		(layer "F.SilkS")
+		(uuid "a651e53d-dea0-4ad0-a92b-0a73a2f710d7")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 144.025 89.2)
